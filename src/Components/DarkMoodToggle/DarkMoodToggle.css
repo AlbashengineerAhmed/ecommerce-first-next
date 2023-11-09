@@ -1,0 +1,20 @@
+.toggle-container {
+  border: 2px solid var(--color-primary);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  position: relative;
+}
+.toggle-icon {
+  font-size: 22px;
+}
+.toggle-switch {
+  width: 30px;
+  aspect-ratio: 1/1;
+  background-color: var(--color-primary);
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
